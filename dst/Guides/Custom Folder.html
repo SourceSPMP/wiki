@@ -425,29 +425,27 @@ th, td
 </li>
 <li class="sidebar"><small class="liicon">-</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Guides</span></span>
 <ul class="sidebar nested active">
-<li class="sidebar"><b> Dedicated Server Guide</b></li>
+<li class="sidebar"><a href="/wiki/Guides/Dedicated Server Guide.html"> Dedicated Server Guide</a></li>
 <li class="sidebar"><a href="/wiki/Guides/Sound Sprays.html"> Sound Sprays</a></li>
-<li class="sidebar"><a href="/wiki/Guides/Custom Folder.html"> Custom Folder</a></li>
+<li class="sidebar"><b> Custom Folder</b></li>
 </ul>
 </li>
 
             </ul>
         </nav>
     </div>
-<div class="rightframed"><div class="rightframedinside"><p>- Whatdidyouexpect &amp; mv</p></div></div>
+<div class="rightframed"><div class="rightframedinside"><p>- Whatdidyouexpect</p></div></div>
 
-<h1>Dedicated Server Guide</h1>
+<h1>Custom Folder</h1>
 
 <ol>
-<li>Download HL2:DM Dedicated Server (<code>steamcmd +force_install_dir /path/to/where/to/put/srcds +login anonymous +app_update 238430 validate +quit</code>)</li>
-<li>Copy desired game folder to root directory of the dedicated server (i.e. <code>hl2</code>, <code>ep1</code>, <code>episodic</code>, <code>portal</code>)</li>
-<li>Copy <code>engine.so</code> (<code>engine.dll</code> for Windows) from bin into the "bin" folder (if asked to override say yes)</li>
-<li>Make .bat/.sh file with <code>srcds -game &lt;game name&gt; -ip 0.0.0.0 -console -maxplayers 32 +hostname "SPMP Dedicated Server"</code> (Replace "&#60;game name&#62;" with the directory name of the game you want)</li>
-<li>Launch the script</li>
+<li><p>Download the custom folder from <a href="https://github.com/SourceSPMP/custom/archive/refs/heads/main.zip">Here</a></p></li>
+<li><p>Extract the .zip to \steamapps\common\Half-Life 2\ep2\custom (make it if you don't already have it, Do not extract .gitignore and README.md as those arent needed)</p></li>
+<li><p>Verify it works</p></li>
 </ol>
 
 <div class="rightframed"><div class="rightframedinside"><h3><center>TODO</center></h3>
 
-<p>Make this easier for stupid people?</p></div></div>
+<p>Wait for mv to correct somethings</p></div></div>
 
 </div>
