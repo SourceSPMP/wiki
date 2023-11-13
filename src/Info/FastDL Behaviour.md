@@ -1,6 +1,6 @@
 {{Author|Whatdidyouexpect}}
 # FastDL Behaviour
 
-It only works on Listen Servers, Might be because of tier0.dll, But is extremely slow.
-So Far we dont know why FastDL doesnt work on Dedicated Servers.
+FastDL works on ep1&ep2 but not regular hl2, It is extremeley slow.
+
 {{TODO|Get more info on why FastDL doesnt work on Dedicated Servers...}}
