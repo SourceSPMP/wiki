@@ -3,7 +3,7 @@
 
 ## Portal
 
-- Requires "-console" attribute to have portals work properly (otherwise vew will flicker). "-multirun" will undo the fix.
+- Requires "-console" attribute to have portals work properly (otherwise view will flicker). "-multirun" will undo the fix.
 - ch_createairboat is considered a cheat.
 - A constant step sound is heard from info_player_start.
 - Has chat.
