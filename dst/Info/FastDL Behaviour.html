@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <title>Source SBMP Wiki</title>
 <link rel="shortcut icon" href="/wiki/favicon.ico">
+<meta charset="UTF-8">
 <script>
-    documentlist = ['/wiki/index.html', '/wiki/Info/Game Specific Differences.html', '/wiki/Info/FastDL Behaviour.html', '/wiki/Info/About Us.html', '/wiki/Guides/Dedicated Server Guide.html', '/wiki/Guides/Sound Sprays.html', '/wiki/Guides/Custom Folder.html'];
-    namelist = [' Source SPMP Wiki', ' Game Specific Differences', ' FastDL Behaviour', ' About Us', ' Dedicated Server Guide', ' Sound Sprays', ' Custom Folder'];
+    documentlist = ['/wiki/index.html', '/wiki/Guides/Custom Folder.html', '/wiki/Guides/Dedicated Server Guide.html', '/wiki/Guides/Sound Sprays.html', '/wiki/Info/About Us.html', '/wiki/Info/FastDL Behaviour.html', '/wiki/Info/Game Specific Differences.html'];
+    namelist = [' Source SPMP Wiki', ' Custom Folder', ' Dedicated Server Guide', ' Sound Sprays', ' About Us', ' FastDL Behaviour', ' Game Specific Differences'];
 
     function toggleTree(element)
     {
@@ -417,18 +418,18 @@ th, td
             </ul>
             <ul class="sidebar sidebarroot" id="filetree">
                 <li class="sidebar"><a href="/wiki/index.html"> Source SPMP Wiki</a></li>
-<li class="sidebar"><small class="liicon">-</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Info</span></span>
-<ul class="sidebar nested active">
-<li class="sidebar"><a href="/wiki/Info/Game Specific Differences.html"> Game Specific Differences</a></li>
-<li class="sidebar"><b> FastDL Behaviour</b></li>
-<li class="sidebar"><a href="/wiki/Info/About Us.html"> About Us</a></li>
-</ul>
-</li>
 <li class="sidebar"><small class="liicon">+</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Guides</span></span>
 <ul class="sidebar nested">
+<li class="sidebar"><a href="/wiki/Guides/Custom Folder.html"> Custom Folder</a></li>
 <li class="sidebar"><a href="/wiki/Guides/Dedicated Server Guide.html"> Dedicated Server Guide</a></li>
 <li class="sidebar"><a href="/wiki/Guides/Sound Sprays.html"> Sound Sprays</a></li>
-<li class="sidebar"><a href="/wiki/Guides/Custom Folder.html"> Custom Folder</a></li>
+</ul>
+</li>
+<li class="sidebar"><small class="liicon">-</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Info</span></span>
+<ul class="sidebar nested active">
+<li class="sidebar"><a href="/wiki/Info/About Us.html"> About Us</a></li>
+<li class="sidebar"><b> FastDL Behaviour</b></li>
+<li class="sidebar"><a href="/wiki/Info/Game Specific Differences.html"> Game Specific Differences</a></li>
 </ul>
 </li>
 
@@ -439,10 +440,8 @@ th, td
 
 <h1>FastDL Behaviour</h1>
 
-<p>Maps MUST be in the ep2 (or whatever you called it) for the FastDL to work, It will be detected if its in the hl2 or episodic folders but it wont get uploaded to the FastDL.</p>
-
-<div class="rightframed"><div class="rightframedinside"><h3><center>TODO</center></h3>
-
-<p>Fix brain for later use</p></div></div>
+<p>Maps and files MUST be in the game folder you are running for the FastDL to work.<br />
+For example, if you are running episode 2, your custom files must be in <code>ep2/</code> folder, not <code>hl2/</code> or <code>episodic/</code>.<br />
+Other than that, FastDL should work normally.</p>
 
 </div>

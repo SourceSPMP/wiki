@@ -5,25 +5,17 @@
 
 2. Go to desired game folder (i.e. `steamapps/common/Half-Life 2/hl2`) and make a folder named "custom" if there isn't one already
 
-3. Extract the zip to the "custom" folder, structure should look similar to below:
+3. Drag folders from the `custom` folder inside the zip to the `custom` folder inside your game, structure should look similar to below:
 ```
 steamapps/common/Half-Life 2/hl2/custom
-├───dingus
-│   ├───materials
-│   │   └───models
-│   │       └───dingus
-│   └───models
-│       └───dingus
-├───menuoptions
-│   └───resource
-└───playermodelFIX
-    ├───materials
-    │   └───models
-    │       └───player
-    └───models
+├───Folder1
+├───Folder2
+│ ...
 ```
 
-4. Verify it works
+It is recommended to get the `menuoptions` folder from the zip file.
+
+5. Verify it works
 
 {{TODO|probably elaborate on what the custom folder & SPMP repo is for?}}
 

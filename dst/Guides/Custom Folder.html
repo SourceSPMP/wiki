@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <title>Source SBMP Wiki</title>
 <link rel="shortcut icon" href="/wiki/favicon.ico">
+<meta charset="UTF-8">
 <script>
-    documentlist = ['/wiki/index.html', '/wiki/Info/Game Specific Differences.html', '/wiki/Info/FastDL Behaviour.html', '/wiki/Info/About Us.html', '/wiki/Guides/Dedicated Server Guide.html', '/wiki/Guides/Sound Sprays.html', '/wiki/Guides/Custom Folder.html'];
-    namelist = [' Source SPMP Wiki', ' Game Specific Differences', ' FastDL Behaviour', ' About Us', ' Dedicated Server Guide', ' Sound Sprays', ' Custom Folder'];
+    documentlist = ['/wiki/index.html', '/wiki/Guides/Custom Folder.html', '/wiki/Guides/Dedicated Server Guide.html', '/wiki/Guides/Sound Sprays.html', '/wiki/Info/About Us.html', '/wiki/Info/FastDL Behaviour.html', '/wiki/Info/Game Specific Differences.html'];
+    namelist = [' Source SPMP Wiki', ' Custom Folder', ' Dedicated Server Guide', ' Sound Sprays', ' About Us', ' FastDL Behaviour', ' Game Specific Differences'];
 
     function toggleTree(element)
     {
@@ -417,18 +418,18 @@ th, td
             </ul>
             <ul class="sidebar sidebarroot" id="filetree">
                 <li class="sidebar"><a href="/wiki/index.html"> Source SPMP Wiki</a></li>
-<li class="sidebar"><small class="liicon">+</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Info</span></span>
-<ul class="sidebar nested">
-<li class="sidebar"><a href="/wiki/Info/Game Specific Differences.html"> Game Specific Differences</a></li>
-<li class="sidebar"><a href="/wiki/Info/FastDL Behaviour.html"> FastDL Behaviour</a></li>
-<li class="sidebar"><a href="/wiki/Info/About Us.html"> About Us</a></li>
-</ul>
-</li>
 <li class="sidebar"><small class="liicon">-</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Guides</span></span>
 <ul class="sidebar nested active">
+<li class="sidebar"><b> Custom Folder</b></li>
 <li class="sidebar"><a href="/wiki/Guides/Dedicated Server Guide.html"> Dedicated Server Guide</a></li>
 <li class="sidebar"><a href="/wiki/Guides/Sound Sprays.html"> Sound Sprays</a></li>
-<li class="sidebar"><b> Custom Folder</b></li>
+</ul>
+</li>
+<li class="sidebar"><small class="liicon">+</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Info</span></span>
+<ul class="sidebar nested">
+<li class="sidebar"><a href="/wiki/Info/About Us.html"> About Us</a></li>
+<li class="sidebar"><a href="/wiki/Info/FastDL Behaviour.html"> FastDL Behaviour</a></li>
+<li class="sidebar"><a href="/wiki/Info/Game Specific Differences.html"> Game Specific Differences</a></li>
 </ul>
 </li>
 
@@ -442,26 +443,18 @@ th, td
 <ol>
 <li><p>Download the custom folder from <a href="https://github.com/SourceSPMP/custom/archive/refs/heads/main.zip">Here</a></p></li>
 <li><p>Go to desired game folder (i.e. <code>steamapps/common/Half-Life 2/hl2</code>) and make a folder named "custom" if there isn't one already</p></li>
-<li><p>Extract the zip to the "custom" folder, structure should look similar to below:</p></li>
+<li><p>Drag folders from the <code>custom</code> folder inside the zip to the <code>custom</code> folder inside your game, structure should look similar to below:</p></li>
 </ol>
 
 <pre><code>steamapps/common/Half-Life 2/hl2/custom
-├───dingus
-│   ├───materials
-│   │   └───models
-│   │       └───dingus
-│   └───models
-│       └───dingus
-├───menuoptions
-│   └───resource
-└───playermodelFIX
-    ├───materials
-    │   └───models
-    │       └───player
-    └───models
+├───Folder1
+├───Folder2
+│ ...
 </code></pre>
 
-<ol start="4">
+<p>It is recommended to get the <code>menuoptions</code> folder from the zip file.</p>
+
+<ol start="5">
 <li>Verify it works</li>
 </ol>
 

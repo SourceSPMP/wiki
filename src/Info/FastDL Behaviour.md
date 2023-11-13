@@ -1,6 +1,6 @@
 {{Author|Whatdidyouexpect}}
 # FastDL Behaviour
 
-Maps MUST be in the ep2 (or whatever you called it) for the FastDL to work, It will be detected if its in the hl2 or episodic folders but it wont get uploaded to the FastDL.
-
-{{TODO|Fix brain for later use}}
+Maps and files MUST be in the game folder you are running for the FastDL to work.
+For example, if you are running episode 2, your custom files must be in `ep2/` folder, not `hl2/` or `episodic/`.
+Other than that, FastDL should work normally.

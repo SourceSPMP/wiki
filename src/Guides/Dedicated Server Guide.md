@@ -7,5 +7,5 @@
 4. Make .bat/.sh file with `srcds -game <game name> -ip 0.0.0.0 -console -maxplayers 32 +hostname "SPMP Dedicated Server"` (Replace "&#60;game name&#62;" with the directory name of the game you want)
 5. Launch the script
 
-{{TODO|Make this easier for stupid people?}}
+{{TODO|Elaborate on the steps.}}
 
