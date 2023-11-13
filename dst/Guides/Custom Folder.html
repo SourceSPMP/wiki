@@ -2,8 +2,8 @@
 <title>Source SBMP Wiki</title>
 <link rel="shortcut icon" href="/wiki/favicon.ico">
 <script>
-    documentlist = ['/wiki/index.html', '/wiki/Info/Game Specific Differences.html', '/wiki/Info/About Us.html', '/wiki/Guides/Dedicated Server Guide.html', '/wiki/Guides/Sound Sprays.html', '/wiki/Guides/Custom Folder.html'];
-    namelist = [' Source SPMP Wiki', ' Game Specific Differences', ' About Us', ' Dedicated Server Guide', ' Sound Sprays', ' Custom Folder'];
+    documentlist = ['/wiki/index.html', '/wiki/Guides/Custom Folder.html', '/wiki/Guides/Dedicated Server Guide.html', '/wiki/Guides/Sound Sprays.html', '/wiki/Info/About Us.html', '/wiki/Info/Game Specific Differences.html'];
+    namelist = [' Source SPMP Wiki', ' Custom Folder', ' Dedicated Server Guide', ' Sound Sprays', ' About Us', ' Game Specific Differences'];
 
     function toggleTree(element)
     {
@@ -417,35 +417,55 @@ th, td
             </ul>
             <ul class="sidebar sidebarroot" id="filetree">
                 <li class="sidebar"><a href="/wiki/index.html"> Source SPMP Wiki</a></li>
-<li class="sidebar"><small class="liicon">+</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Info</span></span>
-<ul class="sidebar nested">
-<li class="sidebar"><a href="/wiki/Info/Game Specific Differences.html"> Game Specific Differences</a></li>
-<li class="sidebar"><a href="/wiki/Info/About Us.html"> About Us</a></li>
-</ul>
-</li>
 <li class="sidebar"><small class="liicon">-</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Guides</span></span>
 <ul class="sidebar nested active">
+<li class="sidebar"><b> Custom Folder</b></li>
 <li class="sidebar"><a href="/wiki/Guides/Dedicated Server Guide.html"> Dedicated Server Guide</a></li>
 <li class="sidebar"><a href="/wiki/Guides/Sound Sprays.html"> Sound Sprays</a></li>
-<li class="sidebar"><b> Custom Folder</b></li>
+</ul>
+</li>
+<li class="sidebar"><small class="liicon">+</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Info</span></span>
+<ul class="sidebar nested">
+<li class="sidebar"><a href="/wiki/Info/About Us.html"> About Us</a></li>
+<li class="sidebar"><a href="/wiki/Info/Game Specific Differences.html"> Game Specific Differences</a></li>
 </ul>
 </li>
 
             </ul>
         </nav>
     </div>
-<div class="rightframed"><div class="rightframedinside"><p>- Whatdidyouexpect</p></div></div>
+<div class="rightframed"><div class="rightframedinside"><p>- Whatdidyouexpect &amp; mv</p></div></div>
 
 <h1>Custom Folder</h1>
 
 <ol>
 <li><p>Download the custom folder from <a href="https://github.com/SourceSPMP/custom/archive/refs/heads/main.zip">Here</a></p></li>
-<li><p>Extract the .zip to <code>\steamapps\common\Half-Life 2\ep2\custom</code> (make it if you don't already have it, Do not extract .gitignore and README.md as those arent needed)</p></li>
-<li><p>Verify it works</p></li>
+<li><p>Go to desired game folder (i.e. <code>steamapps/common/Half-Life 2/hl2</code>) and make a folder named "custom" if there isn't one already</p></li>
+<li><p>Extract the zip to the "custom" folder, structure should look similar to below:</p></li>
+</ol>
+
+<pre><code>steamapps/common/Half-Life 2/hl2/custom
+├───dingus
+│   ├───materials
+│   │   └───models
+│   │       └───dingus
+│   └───models
+│       └───dingus
+├───menuoptions
+│   └───resource
+└───playermodelFIX
+    ├───materials
+    │   └───models
+    │       └───player
+    └───models
+</code></pre>
+
+<ol start="4">
+<li>Verify it works</li>
 </ol>
 
 <div class="rightframed"><div class="rightframedinside"><h3><center>TODO</center></h3>
 
-<p>Wait for mv to correct somethings</p></div></div>
+<p>probably elaborate on what the custom folder &amp; SPMP repo is for?</p></div></div>
 
 </div>
