@@ -2,8 +2,8 @@
 <title>Source SBMP Wiki</title>
 <link rel="shortcut icon" href="/wiki/favicon.ico">
 <script>
-    documentlist = ['/wiki/index.html', '/wiki/Guides/Sound Sprays.html', '/wiki/Guides/Dedicated Server Guide.html', '/wiki/Info/About Us.html', '/wiki/Info/Game Specific Differences.html'];
-    namelist = [' Source SPMP Wiki', ' Sound Sprays', ' Dedicated Server Guide', ' About Us', ' Game Specific Differences'];
+    documentlist = ['/wiki/index.html', '/wiki/Guides/Dedicated Server Guide.html', '/wiki/Guides/Sound Sprays.html', '/wiki/Info/About Us.html', '/wiki/Info/Game Specific Differences.html'];
+    namelist = [' Source SPMP Wiki', ' Dedicated Server Guide', ' Sound Sprays', ' About Us', ' Game Specific Differences'];
 
     function toggleTree(element)
     {
@@ -419,8 +419,8 @@ th, td
                 <li class="sidebar"><a href="/wiki/index.html"> Source SPMP Wiki</a></li>
 <li class="sidebar"><small class="liicon">-</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Guides</span></span>
 <ul class="sidebar nested active">
-<li class="sidebar"><a href="/wiki/Guides/Sound Sprays.html"> Sound Sprays</a></li>
 <li class="sidebar"><b> Dedicated Server Guide</b></li>
+<li class="sidebar"><a href="/wiki/Guides/Sound Sprays.html"> Sound Sprays</a></li>
 </ul>
 </li>
 <li class="sidebar"><small class="liicon">+</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Info</span></span>
@@ -433,7 +433,7 @@ th, td
             </ul>
         </nav>
     </div>
-<div class="rightframed"><div class="rightframedinside"><p>- Whatdidyouexpect &amp; mvn</p></div></div>
+<div class="rightframed"><div class="rightframedinside"><p>- Whatdidyouexpect &amp; mv</p></div></div>
 
 <h1>Dedicated Server Guide</h1>
 
@@ -441,7 +441,7 @@ th, td
 <li>Download HL2:DM Dedicated Server (<code>steamcmd +force_install_dir /path/to/where/to/put/srcds +login anonymous +app_update 238430 validate +quit</code>)</li>
 <li>Copy desired game folder to root directory of the dedicated server (i.e. <code>hl2</code>, <code>ep1</code>, <code>episodic</code>, <code>portal</code>)</li>
 <li>Copy <code>engine.so</code> (<code>engine.dll</code> for Windows) from bin into the "bin" folder (if asked to override say yes)</li>
-<li>Make .bat/.sh file with <code>srcds -game &lt;game name&gt; -ip 0.0.0.0 -console -maxplayers 32 +hostname "SPMP Dedicated Server"</code> (Replace "<game name>" with the directory name of the game you want)</li>
+<li>Make .bat/.sh file with <code>srcds -game &lt;game name&gt; -ip 0.0.0.0 -console -maxplayers 32 +hostname "SPMP Dedicated Server"</code> (Replace "&#60;game name&#62;" with the directory name of the game you want)</li>
 <li>Launch the script</li>
 </ol>
 
