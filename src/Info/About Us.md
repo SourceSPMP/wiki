@@ -1,4 +1,4 @@
-{{Author|Whatdidyouexpect}}
+{{Author|Whatdidyouexpect & relt}}
 # About Us
 
 We test multiplayer behavior in the singleplayer branches of Source Engine games.
