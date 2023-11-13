@@ -5,10 +5,14 @@
 
 - Requires "-console" attribute to have portals work properly (otherwise vew will flicker). "-multirun" will undo the fix.
 - ch_createairboat is considered a cheat.
+- A constant step sound is heard from info_player_start.
+- Has chat.
 
-## Half Life 2
+## Portal With RTX
 
-- Chat does not exist.
+- Game crashes in multiplayer.
 
 
-{{TODO|Add more differences, 3 is a little low}}
+
+
+{{TODO|Add more differences, 5 is a little low}}
