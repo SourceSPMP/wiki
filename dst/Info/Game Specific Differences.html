@@ -417,36 +417,41 @@ th, td
             </ul>
             <ul class="sidebar sidebarroot" id="filetree">
                 <li class="sidebar"><a href="/wiki/index.html"> Source SPMP Wiki</a></li>
-<li class="sidebar"><small class="liicon">-</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Guides</span></span>
-<ul class="sidebar nested active">
-<li class="sidebar"><b> Sound Sprays</b></li>
+<li class="sidebar"><small class="liicon">+</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Guides</span></span>
+<ul class="sidebar nested">
+<li class="sidebar"><a href="/wiki/Guides/Sound Sprays.html"> Sound Sprays</a></li>
 <li class="sidebar"><a href="/wiki/Guides/Dedicated Server Guide.html"> Dedicated Server Guide</a></li>
 </ul>
 </li>
-<li class="sidebar"><small class="liicon">+</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Info</span></span>
-<ul class="sidebar nested">
+<li class="sidebar"><small class="liicon">-</small><span onmousedown="toggleTree(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);"><span onmousedown="Press(this);" onmouseleave="unPress(this);" onmouseup="unPress(this);">Info</span></span>
+<ul class="sidebar nested active">
 <li class="sidebar"><a href="/wiki/Info/About Us.html"> About Us</a></li>
-<li class="sidebar"><a href="/wiki/Info/Game Specific Differences.html"> Game Specific Differences</a></li>
+<li class="sidebar"><b> Game Specific Differences</b></li>
 </ul>
 </li>
 
             </ul>
         </nav>
     </div>
-<div class="rightframed"><div class="rightframedinside"><p>- bandit</p></div></div>
+<div class="rightframed"><div class="rightframedinside"><p>- everythingonarm</p></div></div>
 
-<h1>Sound Sprays</h1>
+<h1>Game Specific Differences</h1>
 
-<ol>
-<li>Convert your sound to a 22050 hz mono WAV file. (You can use ffmpeg or audacity for this)</li>
-<li>Place it in the sound folder</li>
-<li>In the game, do <code>cl_customsounds 1</code></li>
-<li>Then do <code>cl_soundfile sound/YOUR SOUND FILE NAME.wav</code></li>
-<li>To play the sound, do <code>impulse 202</code> (you can bind it to a key)</li>
-</ol>
+<h2>Portal</h2>
+
+<ul>
+<li>Requires "-console" attribute to have portals work properly (otherwise vew will flicker). "-multirun" will undo the fix.</li>
+<li>ch_createairboat is considered a cheat.</li>
+</ul>
+
+<h2>Half Life 2</h2>
+
+<ul>
+<li>Chat does not exist.</li>
+</ul>
 
 <div class="rightframed"><div class="rightframedinside"><h3><center>TODO</center></h3>
 
-<p>Explain what a sound spray is</p></div></div>
+<p>Add more differences, 3 is a little low</p></div></div>
 
 </div>
