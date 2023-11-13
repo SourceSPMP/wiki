@@ -7,4 +7,5 @@
 4. Then do `cl_soundfile sound/YOUR SOUND FILE NAME.wav`
 5. To play the sound, do `impulse 202` (you can bind it to a key)
 
-{{TODO|Explain what a sound spray is}}
+For context, a sound spray is a sound file that you can play in game, like a TF2 noise maker.
+It uses the same cooldown as a spray (decalfrequency) and can be customised, hence the name "Sound Spray".
