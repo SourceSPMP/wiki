@@ -7,7 +7,7 @@ Welcome to the Source SPMP Wiki! Here You'll find all sorts of documentation on 
 
 |Games|Servers|Guides|
 |-|-|-|
-|[Half Life 2: Episode Two][Games/Half Life 2 Episode Two/Main page]|[[Info/FastDL Behaviour]]|[[Guides/Dedicated Server Guide]] <br /> [[Guides/Custom Folder]]|
+|[Half Life 2: Episode Two][Games/Half Life 2 Episode Two/Main Page]|[[Info/FastDL Behaviour]]|[[Guides/Dedicated Server Guide]] <br /> [[Guides/Custom Folder]]|
 
 </center>
 
