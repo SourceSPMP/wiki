@@ -11,7 +11,8 @@ src = rootpath+"/src/"
 lensrc = len(src)
 dst = rootpath+"/dst/"
 assets = rootpath+"/assets/"
-shutil.rmtree(dst)
+if os.path.exists(dst):
+    shutil.rmtree(dst)
 shutil.copytree(assets,dst)
 with open("template.html","r") as f:
     template = f.read()
