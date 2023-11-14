@@ -7,4 +7,6 @@ If You're new here about you start with the [custom folder?][https://sourcespmp.
 
 Or if you're looking to set up a Dedicated Server [what about this?][https://sourcespmp.github.io/wiki/Guides/Dedicated%20Server%20Guide.html]
 
+Or what about joining our [Discord!][https://discord.gg/57SeyV8Hne]
+
 {{TODO|make this look better..}}
