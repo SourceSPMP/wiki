@@ -6,3 +6,5 @@ Welcome to the Source SPMP Wiki! Here You'll find all sorts of documentation on 
 If You're new here about you start with the [custom folder?][https://sourcespmp.github.io/wiki/Guides/Custom%20Folder.html]
 
 Or if you're looking to set up a Dedicated Server [what about this?][https://sourcespmp.github.io/wiki/Guides/Dedicated%20Server%20Guide.html]
+
+{{TODO|make this look better..}}
