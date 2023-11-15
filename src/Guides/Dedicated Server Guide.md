@@ -1,6 +1,8 @@
 {{Author|Whatdidyouexpect & mv}}
 # Dedicated Server Guide
 
+# Setup
+
 1. Download SteamCMD
     Details on how to do so are on Valve Developer Wiki [here][https://developer.valvesoftware.com/wiki/SteamCMD#Downloading_SteamCMD]
 2. Download files for the game you want to host
@@ -45,3 +47,11 @@ After you made the file, launch it. On Linux you'll have to mark the file as exe
 
 {{TODO|Have more people try and confirm it's working, also try for Linux, specifically Debian(-based)}}
 
+# Optimization
+
+While the setup will get you started, you'll still need to do some console commands to make the experience more enjoyable.
+
+* `net_splitrate <number bigger than 1, like 10 or 20>` : Will allow the server to send more data per tick.
+* `net_splitpacket_maxrate 1048576` : Same as the above.
+
+{{TODO|Talk about engine.dll patches for sv_airaccelerate}}
