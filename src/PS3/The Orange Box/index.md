@@ -47,12 +47,14 @@ Because EA servers are down, you shouldn't be able to play TF2 anymore, but you 
 
 * `showconsole`, `toggleconsole` etc.
 * Anything that prints to the console (EA removed every `Msg()` and similar functions)
+* Demo recording, was purposefully removed from the console version. May be possible to implement back with a patch.
 
 # What crashes the game
 
 * Most shader related commands like `mat_fullbright 1` will crash the game because EA did not compile the proper shaders for them to save space.
 * Without a patch, `maxplayers >1` will crash the game when creating a server on a SP branch game.
 * Without a patch, `map_commentary` will crash the game when loading a map that doesnt have commentary nodes.
+* Recording a demo, stopping, and recording again will crash the game. This does not happen on TF2 however.
 
 ---
 
