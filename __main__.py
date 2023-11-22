@@ -131,6 +131,8 @@ def ConvertStrToHtml(rawmarkdown : str):
     for link in links:
         if os.path.exists(os.path.join(src,link[2:-2]+".md")):
             rawmarkdown = rawmarkdown.replace(link, "<a href=\"/wiki/"+link[2:-2]+".html\">"+link[2:-2].split("/")[-1]+"</a>")
+        elif os.path.exists(os.path.join(src,link[2:-2]+"/index.md")):
+            rawmarkdown = rawmarkdown.replace(link, "<a href=\"/wiki/"+link[2:-2]+"\">"+link[2:-2].split("/")[-1]+"</a>")
         else:
             foundpath = FindFile(link[2:-2]+".md").replace(".md","").replace("\\","/")
             rawmarkdown = rawmarkdown.replace(link, "<a href=\"/wiki/"+foundpath+".html\">"+foundpath.split("/")[-1]+"</a>")
