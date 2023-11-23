@@ -6,3 +6,7 @@ The way the engine was ported is so different from [[PS3/The Orange Box]] versio
 # The yellow triangle
 
 When you rename `portal2/zip0.ps3.zip` the game will fail to load game assets and display a petscop-like shaking triangle with beveled edges and a low poly red exclamation mark.
+
+# Plugins support
+
+Portal 2 has working addons folder support. That means, in theory, you can port [SourceMod][https://sourcemod.net/] to the PS3. This is huge.
