@@ -15,6 +15,6 @@ Welcome to the Source SPMP Wiki! Here You'll find all sorts of documentation on 
 
 <center>
 
-<h2> $_BUTTON  [Discord][https://discord.gg/57SeyV8Hne] _$ $_BUTTON  [Github][https://github.com/SourceSPMP] _$ </h2> 
+<h2> $_BUTTON  [Discord][https://discord.gg/xPxqeND8gQ] _$ $_BUTTON  [Github][https://github.com/SourceSPMP] _$ </h2> 
 
 </center>
