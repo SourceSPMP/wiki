@@ -15,9 +15,12 @@ Welcome to the Source SPMP Wiki! Here You'll find all sorts of documentation on 
 
 <center>
 
+<h2>
+  
+  [Discord](https://discord.gg/xPxqeND8gQ)
+  
+  [Github](https://github.com/SourceSPMP)
+</h2>
 
-[Discord](https://discord.gg/xPxqeND8gQ)
-
-[Github](https://github.com/SourceSPMP)
 
 </center>
