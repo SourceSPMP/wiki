@@ -1,1 +1,1 @@
-[GitHub repository][https://github.com/SourceBoxGame/wiki]
+[GitHub repository](https://github.com/SourceBoxGame/wiki)
