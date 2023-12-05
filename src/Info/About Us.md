@@ -10,7 +10,7 @@ Whatdidyouexpect
 mv
 
 
-[Discord][https://discord.gg/66y5PueH]
+[Discord](https://discord.gg/66y5PueH)
 
 {{TODO|Elaborate more}}
 
