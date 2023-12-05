@@ -4,7 +4,7 @@
 # Setup
 
 1. Download SteamCMD
-    Details on how to do so are on Valve Developer Wiki [here][https://developer.valvesoftware.com/wiki/SteamCMD#Downloading_SteamCMD]
+    Details on how to do so are on Valve Developer Wiki [here](https://developer.valvesoftware.com/wiki/SteamCMD#Downloading_SteamCMD)
 2. Download files for the game you want to host
     Open command line, run `steamcmd` then follow the steps below carefully
     1. Specify where to install by typing in `force_install_dir /path/to/where/to/put/server`
