@@ -1,7 +1,7 @@
 {{Author|Whatdidyouexpect & mv}}
 # Custom Folder
 
-1. Download the custom folder from [Here][https://github.com/SourceSPMP/custom/archive/refs/heads/main.zip]
+1. Download the custom folder from [Here](https://github.com/SourceSPMP/custom/archive/refs/heads/main.zip)
 
 2. Go to desired game folder (i.e. `steamapps/common/Half-Life 2/hl2`) and make a folder named "custom" if there isn't one already
 
