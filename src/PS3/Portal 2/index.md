@@ -9,4 +9,4 @@ When you rename `portal2/zip0.ps3.zip` the game will fail to load game assets an
 
 # Plugins support
 
-Portal 2 has working addons folder support. That means, in theory, you can port [SourceMod][https://sourcemod.net/] to the PS3. This is huge.
+Portal 2 has working addons folder support. That means, in theory, you can port [SourceMod](https://sourcemod.net/) to the PS3. This is huge.
