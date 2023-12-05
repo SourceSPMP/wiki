@@ -58,4 +58,4 @@ Because EA servers are down, you shouldn't be able to play TF2 anymore, but you 
 
 ---
 
-The Orange Box for the PS3 is still being researched. Join our [Discord][https://discord.gg/xPxqeND8gQ] if you want to contribute or ask questions.
+The Orange Box for the PS3 is still being researched. Join our [Discord](https://discord.gg/xPxqeND8gQ) if you want to contribute or ask questions.
